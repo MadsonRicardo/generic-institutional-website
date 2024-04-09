@@ -1,0 +1,112 @@
+* {
+    font-family: Inter;
+}
+
+header {
+    background-color: var(--gray1);
+    padding: 20px 236px 20px 236px;
+    border-bottom: 2px solid var(--brand-1);
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: clamp(9rem, -4.196rem + 26.087vw, 12.5rem);
+    height: clamp(2rem, 2.413rem + -1.739vw, 1.3rem);
+    color: var(--gray7);
+}
+
+header button {
+    width: Hug clamp(1rem, -8.22rem + 38.82vw, 16.625rem);
+    height: Fixed clamp(9rem, 12.098rem + -13.043vw, 3.75rem);
+    gap: clamp(0.2rem, -0.051rem + 1.056vw, 0.625rem);
+    border: 1px solid var(--gray7);
+    padding: 20px 32px 20px 32px;
+    background-color: var(--gray1);
+    color: var(--gray7);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-content {
+    width: Fixed (1, 728px)px;
+    height: Hug (781px)px;
+    top: 100px;
+    padding: 250px 236px 250px 236px;
+    gap: 44px;
+    opacity: 0px;
+    background-color: var(--gray2);
+}
+
+.main-content div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.main-content h1 {
+    width: 1085px;
+    height: 73px;
+    color: var(--gray6);
+    text-align: center;
+}
+
+.main-content span {
+    color: var(--brand-1);
+}
+
+.main-content p {
+    width: 770px;
+    height: 60px;
+    color: var(--gray4);
+    text-align: center;
+}
+
+.main-content button {
+    width: Hug (142px)px;
+    height: Fixed (60px)px;
+    padding: 20px 32px 20px 32px;
+    border: 1px solid var(--brand-1);
+    background-color: var(--brand-1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: var(--gray7);
+    cursor: pointer;
+}
+
+.about-content {
+    width: Hug (1, 728px)px;
+    height: Hug (284px)px;
+    top: 881px;
+    padding: 82px 236px 82px 236px;
+    gap: 56px;
+    background-color: var(--gray1);
+}
+
+.about-content div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content h2 {
+    color: var(--gray6);
+    text-align: left;
+}
+
+.about-content p {
+    width: 580px;
+    height: 120px;
+    text-align: justify;
+    color: var(--gray5);
+}

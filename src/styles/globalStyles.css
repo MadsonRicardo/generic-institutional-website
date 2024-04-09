@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+   --brand-1: #4C6EF5;
+   --brand-2: #364Fc7;
+   --gray1: #191C1F;
+   --gray2: #212529;
+   --gray4: #ADB5BD;
+   --gray5: #CED4DA;
+   --gray6: #EDF2FF;
+   --gray7: #F8F9FA;
+}
+
+h1 {
+   font-size: 52px;
+   font-weight: 600;
+   line-height: 72.8px;
+}
+
+h2 {
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 64px;
+}
+
+p {
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 30px;
+}
