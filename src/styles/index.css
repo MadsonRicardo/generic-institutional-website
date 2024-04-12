@@ -84,6 +84,11 @@ header button {
     cursor: pointer;
 }
 
+.main-content button:hover{
+    background-color: var(--brand-2);
+    border-color: var(--brand-2);
+}
+
 .about-content {
     width: Hug (1, 728px)px;
     height: Hug (284px)px;
@@ -109,4 +114,88 @@ header button {
     height: 120px;
     text-align: justify;
     color: var(--gray5);
+}
+
+.faq-content-container {
+    display: flex;
+    justify-content: space-around;
+    width: Fixed (1, 728px)px;
+    height: Hug (1, 132px)px;
+    top: 1165px;
+    padding: 82px 150px 82px 150px;
+    gap: 56px;
+    background-color: var(--gray2);
+}
+
+.faq-content-left {
+    display: flex;
+    width: 620px;
+    height: 280px;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.faq-content-left h2 {
+    color: var(--gray6);
+}
+
+.faq-content-left p {
+    color: var(--gray4);
+}
+
+.faq-content-left button {
+    width: 50%;
+    height: Fixed (60px)px;
+    padding: 20px 32px 20px 32px;
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+    background-color: var(--brand-1);
+    border: 2px solid var(--brand-1);
+    color: var(--gray7);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.faq-content-left button:hover {
+    background-color: var(--brand-2);
+    border-color: var(--brand-2);
+}
+
+.faq-content ul {
+    display: flex;
+    flex-direction: column;
+    width: Fixed (583px)px;
+    height: Hug (968px)px;
+    gap: 60px;
+
+}
+
+.faq-content li {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 583px;
+    height: 197px;
+    justify-content: space-between;
+
+}
+
+.faq-content h3 {
+    color: var(--gray6);
+    width: Fixed (583px)px;
+    height: Hug (51px)px;
+    text-align: center;
+}
+
+.faq-content p {
+    text-align: justify;
+    color: var(--gray4);
+}
+
+.comments-content {
+    background-color: var(--gray2);
 }
