@@ -6,6 +6,8 @@ header {
     background-color: var(--gray1);
     padding: 20px 236px 20px 236px;
     border-bottom: 2px solid var(--brand-1);
+    width: 76%;
+    position: fixed;
 }
 
 header div {
@@ -84,7 +86,7 @@ header button {
     cursor: pointer;
 }
 
-.main-content button:hover{
+.main-content button:hover {
     background-color: var(--brand-2);
     border-color: var(--brand-2);
 }
@@ -133,7 +135,7 @@ header button {
     height: 280px;
     gap: 10px;
     flex-direction: column;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .faq-content-left h2 {
@@ -198,4 +200,74 @@ header button {
 
 .comments-content {
     background-color: var(--gray2);
+}
+
+.comments-content-container {
+    width: Fixed (1, 728px)px;
+    height: Hug (1, 387px)px;
+    top: 2297px;
+    padding: 82px 236px 82px 236px;
+    gap: 56px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+.comments-content-right {
+    background-color: var(--brand-1);
+    padding: 2rem;
+
+}
+
+.comments-content-right h2 {
+    padding-top: 1rem;
+}
+
+.comments-content-right p {
+    color: var(--gray7);
+    text-align: justify;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.comments-content-left {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: Fixed (620px)px;
+    height: Hug (1, 223px)px;
+    gap: 5.125rem;
+}
+
+.comments-content-left li {
+    display: flex;
+    color: var(--gray5);
+    width: 100%
+}
+
+.comments-content-left div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 90%;
+    gap: 0.625rem;
+}
+
+.comments-content-left p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    flex-wrap: nowrap;
+}
+
+footer {
+    background-color: var(--gray1);
+    width: Fixed (1, 728px)px;
+    height: Fixed (102px)px;
+    top: 3684px;
+    padding: 50px 775px 50px 775px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
 }
