@@ -14,7 +14,7 @@
     <header>
       <div>
         <img src="/src/assets/logo.svg" alt="logo" />
-        <button>Entrar para próxima turma</button>
+        <button id="openModalButton1">Entrar para próxima turma</button>
       </div>
     </header>
     <main>
@@ -25,7 +25,7 @@
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            ever since the 1500s.
           </p>
           <button>Sobre nós</button>
         </div>
@@ -54,9 +54,9 @@
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                text ever since the 1500s.
               </p>
-              <button>Entrar para próxima turma</button>
+              <button class="openModalButton">Entrar para próxima turma</button>
             </div>
           </div>
           <!-- RIGHT SIDE -->
@@ -68,7 +68,7 @@
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using
+                normal distribution of letters, as opposed to using.
               </p>
             </li>
             <!-- Question 2 -->
@@ -78,7 +78,7 @@
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using
+                normal distribution of letters, as opposed to using.
               </p>
             </li>
             <!-- Question 3 -->
@@ -88,7 +88,7 @@
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using
+                normal distribution of letters, as opposed to using.
               </p>
             </li>
             <!-- Question 4 -->
@@ -98,7 +98,7 @@
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using
+                normal distribution of letters, as opposed to using.
               </p>
             </li>
           </ul>
@@ -115,7 +115,7 @@
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                text ever since the 1500s.
               </p>
             </div>
           </div>
@@ -123,7 +123,7 @@
           <ul class="comments-content-left">
             <!-- Comment 1 -->
             <li>
-              <div>
+              <div class="comments-content-name">
                 <h3>Júlia Lima</h3>
                 <p>Aluna na turma 2019</p>
               </div>
@@ -136,7 +136,7 @@
             </li>
             <!-- Comment 2 -->
             <li>
-              <div>
+              <div class="comments-content-name">
                 <h3>Carlos Ino</h3>
                 <p>Aluno na turma 2020</p>
               </div>
@@ -144,12 +144,12 @@
                 It is a 🎨 established fact that a reader will be distracted by
                 the readable content of a page when looking at its layout. The
                 point of using Lorem Ipsum is that it has a more-or-less normal
-                distribution of letters, as opposed to using
+                distribution of letters, as opposed to using.
               </p>
             </li>
             <!-- Comment 3 -->
             <li>
-              <div>
+              <div class="comments-content-name">
                 <h3>Camila Dias</h3> 
                 <p>Aluna na turma 2019</p>
               </div>
@@ -162,7 +162,7 @@
             </li>
             <!-- Comment 4 -->
             <li>
-              <div>
+              <div class="comments-content-name">
                 <h3>João Vaz</h3>
                 <p>Aluno na turma 2019</p>
               </div>
@@ -175,7 +175,7 @@
             </li>
             <!-- Comment 5 -->
             <li>
-              <div>
+              <div class="comments-content-name">
                 <h3>Gio Oliveira</h3>
                 <p>Aluna na turma 2019</p>
               </div>
@@ -197,6 +197,15 @@
     </footer>
 
     <!-- ====== Modal ====== -->
-    <dialog></dialog>
+    <dialog id="modal">
+      <h2>Cadastro
+        <button id="close-modal" class="close-button">&times;</button>
+      </h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+      </p>
+      <input type="email" placeholder="Digitar email">
+      <button type="submit">Entrar na lista para próxima turma</button>
+    </dialog>
   </body>
 </html>

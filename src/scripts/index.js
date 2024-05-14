@@ -1,8 +1,21 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const button = document.querySelector(".main-content button");
-    const sectionAbout = document.querySelector("section#about");
+const modal = document.getElementById('modal');
 
-    button.addEventListener("click", function() {
-        sectionAbout.scrollIntoView({ behavior: "smooth" });
-    });
+const openModalBtn = document.getElementsByClassName('openModalButton');
+
+openModalBtn[0].addEventListener('click', function() {
+    modal.showModal();
+})
+
+document.getElementById('openModalButton1').addEventListener('click', function(){
+    document.getElementById('modal').showModal();
+})
+
+document.getElementById('close-modal').addEventListener('click', function(){
+    document.getElementById('modal').close();
+})
+
+modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+        modal.close();
+    }
 });
